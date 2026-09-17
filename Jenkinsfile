@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/lavanya-96-12/jenkins-milestone-demo.git'
+                git branch: 'main', url: 'https://github.com/lavanya-96-12/jenkins-mail-stage-example.git'
             }
         }
 
